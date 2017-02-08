@@ -1,0 +1,17 @@
+﻿Build started 08.02.2017 19:46:11.
+     1>Project "c:\Users\ErArGe-5\documents\visual studio 2013\Projects\VehicleDetectionAndCounting\VehicleDetectionAndCounting\VehicleDetectionAndCounting.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\ErArGe-5\Desktop\open_gl\glew-1.11.0\include" /I"C:\Users\ErArGe-5\Desktop\open_gl\freeglut\include" /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_LIB" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Blob.cpp Main.cpp
+         Main.cpp
+     1>c:\users\erarge-5\documents\visual studio 2013\projects\vehicledetectionandcounting\vehicledetectionandcounting\main.cpp(155): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Blob.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\erarge-5\documents\visual studio 2013\Projects\VehicleDetectionAndCounting\Debug\VehicleDetectionAndCounting.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\ErArGe-5\Desktop\open_gl\freeglut\lib" /LIBPATH:"C:\Users\ErArGe-5\Desktop\open_gl\glew-1.11.0\lib" /LIBPATH:C:\opencv\build\x86\vc12\lib freeglut.lib glew32.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\erarge-5\documents\visual studio 2013\Projects\VehicleDetectionAndCounting\Debug\VehicleDetectionAndCounting.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\erarge-5\documents\visual studio 2013\Projects\VehicleDetectionAndCounting\Debug\VehicleDetectionAndCounting.lib" /MACHINE:X86 Debug\Blob.obj
+         Debug\Main.obj
+         VehicleDetectionAndCounting.vcxproj -> c:\users\erarge-5\documents\visual studio 2013\Projects\VehicleDetectionAndCounting\Debug\VehicleDetectionAndCounting.exe
+     1>Done Building Project "c:\Users\ErArGe-5\documents\visual studio 2013\Projects\VehicleDetectionAndCounting\VehicleDetectionAndCounting\VehicleDetectionAndCounting.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.94
