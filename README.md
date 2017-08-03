@@ -1,5 +1,5 @@
 # Vehicle Detection and Counting System for Two Way Road
-This project focuses on detecting, tracking and counting vehicles by using "Blob Detection" method. The unique ID is assigned to the each vehicle so it can not be counted more than once. This project was developed with OpenCV library (**version 2.4.10**).
+This project focuses on detecting, tracking and counting vehicles by using "[Blob Detection](http://www.learnopencv.com/blob-detection-using-opencv-python-c/)" method. The unique ID is assigned to the each vehicle so it can not be counted more than once. This project was developed with OpenCV library (**[version 2.4.10](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.10/)**).
 
 ## Project Demo
 - The demo video is available on YouTube: https://youtu.be/3uMKK28bMuY
