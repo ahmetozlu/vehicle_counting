@@ -69,7 +69,7 @@ For Linux and Mac users, a CMakefile is provided to compile the source code.
 
 - Check out the latest project source code and compile it:
 
-      ~/git clone --recursive https://github.com/andrewssobral/vehicle_counting.git
+      ~/git clone --recursive https://github.com/ahmetozlu/vehicle_counting.git
       ~/cd vehicle_counting
       ~/vehicle_counting/cd build
       ~/vehicle_counting/build/ cmake ..
