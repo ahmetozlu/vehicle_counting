@@ -18,7 +18,7 @@ using namespace std;
 #include<opencv2/highgui/highgui.hpp>
 #include<opencv2/imgproc/imgproc.hpp>
 #include<iostream>
-#include<conio.h>  // it may be necessary to change or remove this line if not using Windows
+#include<conio.h>  // remove this line if not using Windows OS
 #define SHOW_STEPS // un-comment | comment this line to show steps or not
 
 // const global variables
@@ -52,17 +52,17 @@ int main(void) {
     cv::Point crossingLine[2];
 	cv::Point crossingLineLeft[2];	
 
-    capVideo.open("HSCC Interstate Highway Surveillance System - TEST VIDEO.mp4");
+    capVideo.open("../../src/HSCC Interstate Highway Surveillance System - TEST VIDEO.mp4");
 
     if (!capVideo.isOpened()) {                                                 // if unable to open video file
         std::cout << "error reading video file" << std::endl << std::endl;      // show error message
-        _getch();																// it may be necessary to change or remove this line if not using Windows
+        _getch();																// remove this line if not using Windows OS
         return(0);                                                              // and exit program
     }
 
     if (capVideo.get(CV_CAP_PROP_FRAME_COUNT) < 2) {
         std::cout << "error: video file must have at least two frames";
-        _getch();																// it may be necessary to change or remove this line if not using Windows
+        _getch();																// remove this line if not using Windows OS
         return(0);
     }
 
