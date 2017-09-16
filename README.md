@@ -6,6 +6,8 @@ This project focuses on detecting, tracking and counting vehicles by using "[Blo
   <img src="https://user-images.githubusercontent.com/22610163/30249200-efa2b594-963f-11e7-8c3e-b378cbf49101.gif">
 </p>
 
+The accuray is approximately 95% and developing of the accuracy is in progress.
+
 ## Theory
 Target representation and localization is mostly a bottom-up process. These methods give a variety of tools for identifying the moving object. Locating and tracking the target object successfully is dependent on the algorithm. For example, using blob tracking is useful for identifying, tracking human/vehicle movement because a person's/vehicle's profile changes dynamically. Typically the computational complexity for these algorithms is low. The project utlizes the [Blob Tracking](https://github.com/ahmetozlu/vehicle_counting/blob/master/VehicleDetectionAndCounting/Blob.cpp) module which provides various parameters for connecting blobs on video frames in order to determine movements of vehicles. 
 
